@@ -1,7 +1,7 @@
 library(dplyr)
 rm(list=ls())
-ss = read.csv('/Users/jaylee/Desktop/DataFest 2022/For Students/S5_scores_cleaned.csv')
-logs = read.csv('/Users/jaylee/Desktop/DataFest 2022/For Students/logs.csv')
+ss = read.csv('/Users/jaylee/Desktop/Data2022/For Students/S5_scores_cleaned.csv')
+logs = read.csv('/Users/jaylee/Desktop/Data2022/For Students/logs.csv')
 # remove all rows without  player_id
 ss <- na.omit(ss) 
 a <- logs[,c('player_id','event_id','event_description')] 
